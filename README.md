@@ -13,3 +13,5 @@ also adding a missing id to the search-optimization.
 ![Alt text](assets/images/horiseon-screenshot.jpg)
 
 ## Deployed Link
+
+https://cazthetraveler.github.io/02-Challenge/
