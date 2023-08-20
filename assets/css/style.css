@@ -1,13 +1,16 @@
+/*Universal selector--applies to all elements*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Changes background color to entire page.*/
 body {
     background-color: #d9dcd6;
 }
 
+/*adds a padding, font styles, and background color to the header semantic.*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/*this applies changes to the h1 tag specifically in the header element.*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*this applies styles the seo class inside the h1 tag, inside the header element.*/
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/*this applies styles into the nav element inside the header element.*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ header nav {
     font-size: 20px;
 }
 
+/*this styles the unordered list inside the nav element.*/
 header nav ul {
     list-style-type: none;
 }
 
+/*this changes the display of the list items to be on the same inline, rather than the default block ordering.*/
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*this changes styles on any anchor tags, not specified, on the document.*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*this applies styles on any paragraph tags on the document.*/
 p {
     font-size: 16px;
 }
 
+/*this applies styles to any elements with the hero class. this one uses an image background.*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/*any elements with this class will float the content to the left of other elements.*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*any elements with this class will float the content to the right of other elements.*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*any elements with the content class will have these styles applied.*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*any elements with the benefits class will have these styles applied.*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,6 +101,7 @@ p {
     background-color: #2589bd;
 }
 
+/*any elements with these class listed below with "benefit-" will have these styles applied. Some being combinator selectors.*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -134,6 +150,7 @@ p {
     max-width: 150px;
 }
 
+/*these basically describe the 3 sections and the rules the styles should have.*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -188,6 +205,7 @@ p {
     font-size: 36px;
 }
 
+/*this applies styles to the footer element.*/
 footer {
     padding: 30px;
     clear: both;
@@ -195,6 +213,7 @@ footer {
     text-align: center;
 }
 
+/*this applies styles to the h2 tag specifially inside the footer element.*/
 footer h2 {
     font-size: 20px;
 }
