@@ -17,4 +17,4 @@ where the header, nav, and section elements are placed.
 
 ## Deployed Link
 
-https://cazthetraveler.github.io/02-Challenge/
+https://cazthetraveler.github.io/Module-1-Challenge/
